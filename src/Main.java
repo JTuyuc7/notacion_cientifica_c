@@ -21,7 +21,7 @@ public class Main {
     private void initialize(){
         frame = new JFrame();
         frame.setTitle("Notacion Cientifica");
-        frame.setBounds(100, 100, 450, 300);
+        frame.setBounds(100, 100, 450, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(new BorderLayout());
 
@@ -35,7 +35,6 @@ public class Main {
 
         loadButton = new JButton("Seleccionar archivo");
         buttonPanel.add(loadButton);
-
 
         loadButton.addActionListener(new ActionListener() {
             @Override
